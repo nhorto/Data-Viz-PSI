@@ -1,0 +1,765 @@
+school_districs_FINAL.geojson
+2022 County Health Rankings Data - v1.xlsx
+combined_shapefiles.cpg
+combined_shapefiles.dbf
+combined_shapefiles.prj
+combined_shapefiles.shp
+combined_shapefiles.shx
+DistrictCostDatabase_2024.xlsx
+districts_test.geojson
+districts.geojson
+elsec20.xls
+Final Project Submission Nick and Olivia.zip
+finance_poverty_school_districts_FINAL.geojson
+finance_poverty_school_districts.cpg
+finance_poverty_school_districts.csv
+finance_poverty_school_districts.dbf
+finance_poverty_school_districts.geojson
+finance_poverty_school_districts.prj
+finance_poverty_school_districts.shp
+finance_poverty_school_districts.shx
+finance_poverty_tiles.mbtiles-journal
+Finance.csv
+gz_2010_us_040_00_500k.json
+map_without_MapBox.html
+map.html
+Poverty.csv
+States_Grouped.csv
+test to display district by state.geojson
+test_for_States.geojson
+test_map.html
+test.csv
+updated_states.geojson
+us-states.json
+ussd22.xls
+ Unified School District Shapefiles/.DS_Store
+ Unified School District Shapefiles/School_Districts_combined_shapefile.cpg
+ Unified School District Shapefiles/School_Districts_combined_shapefile.dbf
+ Unified School District Shapefiles/School_Districts_combined_shapefile.prj
+ Unified School District Shapefiles/School_Districts_combined_shapefile.shp
+ Unified School District Shapefiles/School_Districts_combined_shapefile.shx
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.cpg
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.dbf
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.prj
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.shp
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_01_unsd/tl_2020_01_unsd.shx
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.cpg
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.dbf
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.prj
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.shp
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_02_unsd/tl_2020_02_unsd.shx
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.cpg
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.dbf
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.prj
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.shp
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_04_unsd/tl_2020_04_unsd.shx
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.cpg
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.dbf
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.prj
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.shp
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_05_unsd/tl_2020_05_unsd.shx
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.cpg
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.dbf
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.prj
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.shp
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_06_unsd/tl_2020_06_unsd.shx
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.cpg
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.dbf
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.prj
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.shp
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_08_unsd/tl_2020_08_unsd.shx
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.cpg
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.dbf
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.prj
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.shp
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_09_unsd/tl_2020_09_unsd.shx
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.cpg
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.dbf
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.prj
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.shp
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_10_unsd/tl_2020_10_unsd.shx
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.cpg
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.dbf
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.prj
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.shp
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_11_unsd/tl_2020_11_unsd.shx
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.cpg
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.dbf
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.prj
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.shp
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_12_unsd/tl_2020_12_unsd.shx
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.cpg
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.dbf
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.prj
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.shp
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_13_unsd/tl_2020_13_unsd.shx
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.cpg
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.dbf
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.prj
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.shp
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_15_unsd/tl_2020_15_unsd.shx
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.cpg
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.dbf
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.prj
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.shp
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_16_unsd/tl_2020_16_unsd.shx
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.cpg
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.dbf
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.prj
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.shp
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_17_unsd/tl_2020_17_unsd.shx
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.cpg
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.dbf
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.prj
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.shp
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_18_unsd/tl_2020_18_unsd.shx
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.cpg
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.dbf
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.prj
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.shp
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_19_unsd/tl_2020_19_unsd.shx
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.cpg
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.dbf
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.prj
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.shp
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_20_unsd/tl_2020_20_unsd.shx
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.cpg
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.dbf
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.prj
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.shp
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_21_unsd/tl_2020_21_unsd.shx
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.cpg
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.dbf
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.prj
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.shp
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_22_unsd/tl_2020_22_unsd.shx
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.cpg
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.dbf
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.prj
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.shp
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_23_unsd/tl_2020_23_unsd.shx
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.cpg
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.dbf
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.prj
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.shp
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_24_unsd/tl_2020_24_unsd.shx
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.cpg
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.dbf
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.prj
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.shp
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_25_unsd/tl_2020_25_unsd.shx
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.cpg
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.dbf
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.prj
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.shp
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_26_unsd/tl_2020_26_unsd.shx
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.cpg
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.dbf
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.prj
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.shp
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_27_unsd/tl_2020_27_unsd.shx
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.cpg
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.dbf
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.prj
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.shp
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_28_unsd/tl_2020_28_unsd.shx
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.cpg
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.dbf
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.prj
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.shp
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_29_unsd/tl_2020_29_unsd.shx
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.cpg
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.dbf
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.prj
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.shp
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_30_unsd/tl_2020_30_unsd.shx
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.cpg
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.dbf
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.prj
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.shp
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_31_unsd/tl_2020_31_unsd.shx
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.cpg
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.dbf
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.prj
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.shp
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_32_unsd/tl_2020_32_unsd.shx
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.cpg
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.dbf
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.prj
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.shp
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_33_unsd/tl_2020_33_unsd.shx
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.cpg
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.dbf
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.prj
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.shp
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_34_unsd/tl_2020_34_unsd.shx
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.cpg
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.dbf
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.prj
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.shp
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_35_unsd/tl_2020_35_unsd.shx
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.cpg
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.dbf
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.prj
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.shp
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_36_unsd/tl_2020_36_unsd.shx
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.cpg
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.dbf
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.prj
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.shp
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_37_unsd/tl_2020_37_unsd.shx
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.cpg
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.dbf
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.prj
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.shp
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_38_unsd/tl_2020_38_unsd.shx
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.cpg
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.dbf
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.prj
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.shp
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_39_unsd/tl_2020_39_unsd.shx
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.cpg
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.dbf
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.prj
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.shp
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_40_unsd/tl_2020_40_unsd.shx
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.cpg
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.dbf
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.prj
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.shp
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_41_unsd/tl_2020_41_unsd.shx
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.cpg
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.dbf
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.prj
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.shp
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_42_unsd/tl_2020_42_unsd.shx
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.cpg
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.dbf
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.prj
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.shp
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_44_unsd/tl_2020_44_unsd.shx
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.cpg
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.dbf
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.prj
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.shp
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_45_unsd/tl_2020_45_unsd.shx
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.cpg
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.dbf
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.prj
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.shp
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_46_unsd/tl_2020_46_unsd.shx
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.cpg
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.dbf
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.prj
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.shp
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_47_unsd/tl_2020_47_unsd.shx
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.cpg
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.dbf
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.prj
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.shp
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_48_unsd/tl_2020_48_unsd.shx
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.cpg
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.dbf
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.prj
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.shp
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_49_unsd/tl_2020_49_unsd.shx
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.cpg
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.dbf
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.prj
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.shp
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_50_unsd/tl_2020_50_unsd.shx
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.cpg
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.dbf
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.prj
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.shp
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_51_unsd/tl_2020_51_unsd.shx
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.cpg
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.dbf
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.prj
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.shp
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_53_unsd/tl_2020_53_unsd.shx
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.cpg
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.dbf
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.prj
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.shp
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_54_unsd/tl_2020_54_unsd.shx
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.cpg
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.dbf
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.prj
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.shp
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_55_unsd/tl_2020_55_unsd.shx
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.cpg
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.dbf
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.prj
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.shp
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_56_unsd/tl_2020_56_unsd.shx
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.cpg
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.dbf
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.prj
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.shp
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_60_unsd/tl_2020_60_unsd.shx
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.cpg
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.dbf
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.prj
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.shp
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_66_unsd/tl_2020_66_unsd.shx
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.cpg
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.dbf
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.prj
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.shp
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_69_unsd/tl_2020_69_unsd.shx
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.cpg
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.dbf
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.prj
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.shp
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_72_unsd/tl_2020_72_unsd.shx
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.cpg
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.dbf
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.prj
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.shp
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.shp.ea.iso.xml
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.shp.iso.xml
+ Unified School District Shapefiles/tl_2020_78_unsd/tl_2020_78_unsd.shx
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.cpg
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.dbf
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.prj
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.shp
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_04_elsd/tl_2020_04_elsd.shx
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.cpg
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.dbf
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.prj
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.shp
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_06_elsd/tl_2020_06_elsd.shx
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.cpg
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.dbf
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.prj
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.shp
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_09_elsd/tl_2020_09_elsd.shx
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.cpg
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.dbf
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.prj
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.shp
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_13_elsd/tl_2020_13_elsd.shx
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.cpg
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.dbf
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.prj
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.shp
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_17_elsd/tl_2020_17_elsd.shx
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.cpg
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.dbf
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.prj
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.shp
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_21_elsd/tl_2020_21_elsd.shx
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.cpg
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.dbf
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.prj
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.shp
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_23_elsd/tl_2020_23_elsd.shx
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.cpg
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.dbf
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.prj
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.shp
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_25_elsd/tl_2020_25_elsd.shx
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.cpg
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.dbf
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.prj
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.shp
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_26_elsd/tl_2020_26_elsd.shx
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.cpg
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.dbf
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.prj
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.shp
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_27_elsd/tl_2020_27_elsd.shx
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.cpg
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.dbf
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.prj
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.shp
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_29_elsd/tl_2020_29_elsd.shx
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.cpg
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.dbf
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.prj
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.shp
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_30_elsd/tl_2020_30_elsd.shx
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.cpg
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.dbf
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.prj
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.shp
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_33_elsd/tl_2020_33_elsd.shx
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.cpg
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.dbf
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.prj
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.shp
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_34_elsd/tl_2020_34_elsd.shx
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.cpg
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.dbf
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.prj
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.shp
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_36_elsd/tl_2020_36_elsd.shx
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.cpg
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.dbf
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.prj
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.shp
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_38_elsd/tl_2020_38_elsd.shx
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.cpg
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.dbf
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.prj
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.shp
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_40_elsd/tl_2020_40_elsd.shx
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.cpg
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.dbf
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.prj
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.shp
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_41_elsd/tl_2020_41_elsd.shx
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.cpg
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.dbf
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.prj
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.shp
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_44_elsd/tl_2020_44_elsd.shx
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.cpg
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.dbf
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.prj
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.shp
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_45_elsd/tl_2020_45_elsd.shx
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.cpg
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.dbf
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.prj
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.shp
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_47_elsd/tl_2020_47_elsd.shx
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.cpg
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.dbf
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.prj
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.shp
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_48_elsd/tl_2020_48_elsd.shx
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.cpg
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.dbf
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.prj
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.shp
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_50_elsd/tl_2020_50_elsd.shx
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.cpg
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.dbf
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.prj
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.shp
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_51_elsd/tl_2020_51_elsd.shx
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.cpg
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.dbf
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.prj
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.shp
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_55_elsd/tl_2020_55_elsd.shx
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.cpg
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.dbf
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.prj
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.shp
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.shp.ea.iso.xml
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.shp.iso.xml
+Elementry School District Shapefiles/tl_2020_56_elsd/tl_2020_56_elsd.shx
+Final Project Submission Nick and Olivia/.DS_Store
+Final Project Submission Nick and Olivia/DATA760_Final_Report.pdf
+Final Project Submission Nick and Olivia/map_FINAL.html
+Final Project Submission Nick and Olivia/map_revised.html
+Final Project Submission Nick and Olivia/state_FINAL.geojson
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.cpg
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.dbf
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.prj
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.shp
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_04_scsd/tl_2020_04_scsd.shx
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.cpg
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.dbf
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.prj
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.shp
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_06_scsd/tl_2020_06_scsd.shx
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.cpg
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.dbf
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.prj
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.shp
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_09_scsd/tl_2020_09_scsd.shx
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.cpg
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.dbf
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.prj
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.shp
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_13_scsd/tl_2020_13_scsd.shx
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.cpg
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.dbf
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.prj
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.shp
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_17_scsd/tl_2020_17_scsd.shx
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.cpg
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.dbf
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.prj
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.shp
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_21_scsd/tl_2020_21_scsd.shx
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.cpg
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.dbf
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.prj
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.shp
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_23_scsd/tl_2020_23_scsd.shx
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.cpg
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.dbf
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.prj
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.shp
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_25_scsd/tl_2020_25_scsd.shx
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.cpg
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.dbf
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.prj
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.shp
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_27_scsd/tl_2020_27_scsd.shx
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.cpg
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.dbf
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.prj
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.shp
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_30_scsd/tl_2020_30_scsd.shx
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.cpg
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.dbf
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.prj
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.shp
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_33_scsd/tl_2020_33_scsd.shx
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.cpg
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.dbf
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.prj
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.shp
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_34_scsd/tl_2020_34_scsd.shx
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.cpg
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.dbf
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.prj
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.shp
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_36_scsd/tl_2020_36_scsd.shx
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.cpg
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.dbf
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.prj
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.shp
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_40_scsd/tl_2020_40_scsd.shx
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.cpg
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.dbf
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.prj
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.shp
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_41_scsd/tl_2020_41_scsd.shx
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.cpg
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.dbf
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.prj
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.shp
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_44_scsd/tl_2020_44_scsd.shx
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.cpg
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.dbf
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.prj
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.shp
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_45_scsd/tl_2020_45_scsd.shx
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.cpg
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.dbf
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.prj
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.shp
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_47_scsd/tl_2020_47_scsd.shx
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.cpg
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.dbf
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.prj
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.shp
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_48_scsd/tl_2020_48_scsd.shx
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.cpg
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.dbf
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.prj
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.shp
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.shp.ea.iso.xml
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.shp.iso.xml
+Secondary School Districts/tl_2020_55_scsd/tl_2020_55_scsd.shx
+tiles/.DS_Store
+tiles/metadata.json
+tiles/0/.DS_Store
+tiles/0/0/0.png
+tiles/1/.DS_Store
+tiles/1/1/0.png
