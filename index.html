@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Funding and Poverty Map</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Adds vertical centering inside the viewport */
+            gap: 10px; /* Adds consistent spacing between elements */
+            text-align: center; /* Centers any inner text like titles */
+        }
+
+        svg {
+            display: block; /* Ensures the element respects the parent alignment */
+            /* width: 90%; */
+            /* height: 400px; */
+            margin: 10px 0;
+            max-width: 960px; /* Optional to restrict max width */
+            overflow: visible;
+        }
+
+        .tooltip {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+            font-size: 12px;
+        }
+        .legend {
+            font-size: 12px;
+        }
+        .comparison-chart {
+            margin-top: 20px;
+        }
+        .bar-label {
+            font-size: 12px;
+        }
+
+        #comparison-chart,
+        #scatter-plot {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Header Styling test */
+        /* Header Styling test */
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 1.1em;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+
+        /* Project Overview Section */
+        .project-overview {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            text-align: left;
+        }
+
+        .project-overview h2 {
+            color: #667eea;
+            margin-top: 0;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project-overview h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .project-overview p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        /* Insights Panel */
+        .insights-panel {
+            margin-top: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .insights-grid {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        .insight-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            transition: transform 0.2s, box-shadow 0.2s;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .insight-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+        }
+
+        .insight-item h4 {
+            color: #667eea;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .insight-item p {
+            margin: 0;
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        /* Navigation Hint */
+        .navigation-hint {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px 20px;
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .navigation-hint strong {
+            color: #856404;
+            font-size: 1.1em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>School Funding & Poverty Analysis Dashboard</h1>
+        <p>Exploring the relationship between educational funding, poverty rates, and resource allocation across U.S. school districts</p>
+    </div>
+
+    <!-- Project Overview -->
+    <div class="project-overview">
+        <h2>Project Overview</h2>
+        <p>This interactive visualization examines the complex relationship between school funding, poverty rates, and educational equity across the United States. Using comprehensive data from the Urban Institute and U.S. Census Bureau, the dashboard analyzes how financial resources are distributed among school districts and their correlation with student poverty levels.</p>
+
+        <p>The analysis introduces the <strong>Poverty Sensitivity Index (PSI)</strong> - a novel metric that measures how well school funding responds to student poverty levels. PSI is calculated as: <strong>Revenue per Student ÷ Poverty Rate</strong>. This means a district with $20,000 per student and a 5% poverty rate (0.05) would have a PSI of 400,000.</p>
+
+        <p><strong>How to interpret PSI:</strong> Higher PSI values indicate districts that receive more funding per student relative to their poverty rates, suggesting better resource allocation for high-need populations. The PSI represents the amount of funding (in dollars) allocated per student for each percentage point of poverty. For example, a PSI of 400,000 means the district allocates $400,000 per student per 1% poverty rate, while a PSI of 200,000 would indicate half that funding intensity relative to poverty levels.</p>
+
+        <div class="insights-panel">
+            <h3>Key Insights & Methodology</h3>
+            <div class="insights-grid">
+                <div class="insight-item">
+                    <h4>Poverty Sensitivity Index (PSI)</h4>
+                    <p>PSI = (Revenue per Student) / (Poverty Rate). This metric represents dollars allocated per student for each percentage point of poverty. Higher values indicate better poverty-adjusted funding, helping identify districts that effectively allocate resources to high-need populations.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Geographic Patterns</h4>
+                    <p>The analysis reveals significant regional variations in funding equity, with some states showing consistently higher PSI values across districts, suggesting more equitable state-level funding formulas.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Data Integration</h4>
+                    <p>This project combines financial data from the Urban Institute's Education Finance Database with demographic data from the U.S. Census Bureau, providing a comprehensive view of educational equity.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Policy Implications</h4>
+                    <p>The findings highlight districts and states that may benefit from funding formula adjustments to better serve high-poverty student populations and improve educational equity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Hint -->
+    <div class="navigation-hint">
+        <strong>How to Use:</strong> Click on any state in the map below to explore district-level data. Use the scatter plot and comparison charts to analyze funding patterns and equity metrics.
+    </div>
+    <h2>State View</h2>
+    <svg id="state-map"></svg>
+    <h2>District View: <span id="selected-state">No state selected</span></h2>
+    <svg id="district-map" width="1200" height="800"></svg>
+    <h2>District Comparison</h2>
+    <svg id="comparison-chart" height="300"></svg>
+    <h2>District Scatter Plot</h2>
+    <svg id="scatter-plot" width="800" height="400"></svg>
+    <div class="tooltip" style="display: none;"></div>
+    
+
+
+    <script>
+        const width = 960, height = 600;
+        let nationalAverages = null;
+        let stateAverages = null;
+
+        const stateSvg = d3.select("#state-map").attr("width", width).attr("height", height);
+        const districtSvg = d3.select("#district-map").attr("width", width).attr("height", height);
+        const scatterSvg = d3.select("#scatter-plot").attr("width", 800).attr("height", 400);
+        const comparisonSvg = d3.select("#comparison-chart").attr("width", width);
+
+        const projection = d3.geoAlbersUsa()
+            .fitSize([width, height], { type: "Sphere", coordinates: [] });
+        const path = d3.geoPath().projection(projection);
+        const tooltip = d3.select(".tooltip");
+
+        const colorScale = d3.scaleSequential()
+            .interpolator(d3.interpolateRdYlBu)
+            .domain([0, 400000]);
+
+        function createLegend(svg, colorScale, x, y, width, height, title) {
+            const legendGroup = svg.append("g")
+                .attr("class", "legend")
+                .attr("transform", `translate(${x},${y})`);
+
+            const gradientId = "legend-gradient-" + Math.random().toString(36).substr(2, 9);
+            
+            // Create gradient
+            const defs = svg.append("defs");
+            const linearGradient = defs.append("linearGradient")
+                .attr("id", gradientId)
+                .attr("x1", "0%")
+                .attr("x2", "100%")
+                .attr("y1", "0%")
+                .attr("y2", "0%");
+
+            // Add color stops
+            const stops = d3.range(0, 1.1, 0.1);
+            stops.forEach(stop => {
+                linearGradient.append("stop")
+                    .attr("offset", `${stop * 100}%`)
+                    .attr("stop-color", colorScale(colorScale.domain()[0] + (stop * (colorScale.domain()[1] - colorScale.domain()[0]))));
+            });
+
+            // Draw rectangle with gradient
+            legendGroup.append("rect")
+                .attr("width", width)
+                .attr("height", height)
+                .style("fill", `url(#${gradientId})`);
+
+            // Add title
+            legendGroup.append("text")
+                .attr("x", width / 2)
+                .attr("y", -5)
+                .style("text-anchor", "middle")
+                .text(title);
+
+            // Add labels
+            const scale = d3.scaleLinear()
+                .domain(colorScale.domain())
+                .range([0, width]);
+
+            const axis = d3.axisBottom(scale)
+                .ticks(5)
+                .tickFormat(d3.format(",.0f"));
+
+            legendGroup.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(axis);
+        }
+
+        function calculateAverages(features, properties) {
+            const averages = {};
+            properties.forEach(prop => {
+                const values = features.map(f => f.properties[prop]).filter(v => v !== null && !isNaN(v));
+                averages[prop] = d3.mean(values);
+            });
+            return averages;
+        }
+
+        function createComparisonChart(districtData, stateAvg, nationalAvg) {
+            comparisonSvg.selectAll("*").remove(); // Clear previous content
+
+            const metrics = ["Revenue per Student", "PSI", "Share of school-age population (ages 5-17) in poverty"];
+            const margin = {top: 20, right: 20, bottom: 40, left: 60};
+            const chartHeight = 300; // Same height for all charts
+            const chartWidth = (width - margin.left - margin.right) / metrics.length; // Divide width by number of metrics
+
+            metrics.forEach((metric, index) => {
+                const metricData = [
+                    { name: "District", value: districtData.properties[metric] },
+                    { name: "State Average", value: stateAvg[metric] },
+                    { name: "National Average", value: nationalAvg[metric] }
+                ];
+
+                const x = d3.scaleBand()
+                    .domain(metricData.map(d => d.name))
+                    .range([0, chartWidth])
+                    .padding(0.1);
+
+                const y = d3.scaleLinear()
+                    .domain([0, d3.max(metricData, d => d.value)])
+                    .range([chartHeight, 0]);
+
+                const group = comparisonSvg.append("g")
+                    .attr("transform", `translate(${margin.left + index * (chartWidth + 70)}, ${margin.top})`);
+
+                // Add bars
+                group.selectAll(".bar")
+                    .data(metricData)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "bar")
+                    .attr("x", d => x(d.name))
+                    .attr("y", d => y(d.value))
+                    .attr("width", x.bandwidth())
+                    .attr("height", d => chartHeight - y(d.value))
+                    .attr("fill", (d, i) => ["#ff7f0e", "#2ca02c", "#1f77b4"][i]);
+
+                // Add x-axis
+                group.append("g")
+                    .attr("transform", `translate(0,${chartHeight})`)
+                    .call(d3.axisBottom(x));
+
+                // Add y-axis
+                group.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Add chart title
+                group.append("text")
+                    .attr("x", chartWidth / 2)
+                    .attr("y", -10)
+                    .attr("text-anchor", "middle")
+                    .attr("font-size", "14px")
+                    .attr("font-weight", "bold")
+                    .text(metric);
+                    
+            });
+        }
+
+
+        // Load and render states
+        d3.json("https://psi-school.s3.us-east-1.amazonaws.com/state_FINAL.geojson")
+            .then(states => {
+                console.log("States data loaded", {
+                    totalStates: states.features.length,
+                    sampleStateProperties: states.features[0].properties
+                });
+
+                // Calculate national averages
+                nationalAverages = calculateAverages(states.features, ['PSI']);
+
+                stateSvg.selectAll("path")
+                    .data(states.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .attr("fill", d => colorScale(d.properties.PSI))
+                    .attr("stroke", "#000")
+                    .attr("stroke-width", 0.5)
+                    .on("mouseover", (event, d) => {
+                        tooltip.style("display", "block")
+                            .html(getTooltipContent(d));
+                    })
+                    .on("mousemove", (event) => {
+                        tooltip.style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 10) + "px");
+                    })
+                    .on("mouseout", () => {
+                        tooltip.style("display", "none");
+                    })
+                    .on("click", (event, d) => {
+                        const stateName = d.properties.name;
+                        loadDistricts(stateName);
+                        d3.select("#selected-state").text(stateName);
+                    });
+
+                // Add legend for state map
+                createLegend(stateSvg, colorScale, 10, 20, 180, 20, "PSI");
+            })
+            .catch(error => {
+                console.log("Error loading states data:", error);
+            });
+
+            let districtsData;
+                d3.json("https://psi-school.s3.us-east-1.amazonaws.com/districts.geojson")
+                .then(data => {
+                    districtsData = data;
+                    // Calculate national averages for districts
+                    nationalAverages = calculateAverages(data.features, [
+                        'Revenue per Student',
+                        'PSI',
+                        'Share of school-age population (ages 5-17) in poverty'
+                    ]);
+                    console.log("Districts data loaded", { totalDistricts: districtsData.features.length });
+                })
+                .catch(error => {
+                    console.log("Error loading districts data:", error);
+                });
+
+                function loadDistricts(stateName) {
+                    console.log("Loading districts for state:", stateName);
+
+                    districtSvg.selectAll("*").remove();
+                    scatterSvg.selectAll("*").remove();
+                    tooltip.style("display", "none");
+
+                    const selectedRow = districtsData.features.find(row => row.properties["State Name"] === stateName);
+                    if (selectedRow) {
+                        const filterValue = selectedRow.properties["STATEFP"];
+                        const filteredDistricts = districtsData.features.filter(row => row.properties["STATEFP"] === filterValue);
+
+                        // Calculate state averages
+                        stateAverages = calculateAverages(filteredDistricts, [
+                            'Revenue per Student',
+                            'PSI',
+                            'Share of school-age population (ages 5-17) in poverty'
+                        ]);
+
+                        console.log("Filtered districts", {
+                            stateName: stateName,
+                            matchingDistricts: filteredDistricts.length
+                        });
+
+                        if (filteredDistricts.length > 0) {
+                            const statePSIValues = filteredDistricts.map(d => d.properties["PSI"]);
+                            const psiQuartiles = [
+                                d3.quantile(statePSIValues, 0.25),
+                                d3.quantile(statePSIValues, 0.5),
+                                d3.quantile(statePSIValues, 0.75)
+                            ];
+                            
+                            const stateColorScale = d3.scaleQuantile()
+                                .domain(statePSIValues)
+                                .range([
+                                    d3.interpolateRdYlBu(0),
+                                    d3.interpolateRdYlBu(0.25),
+                                    d3.interpolateRdYlBu(0.5),
+                                    d3.interpolateRdYlBu(0.75),
+                                    d3.interpolateRdYlBu(1)
+                                ]);
+
+                            const districtFeatureCollection = {
+                                type: "FeatureCollection",
+                                features: filteredDistricts
+                            };
+
+                            // Reserve space for legend
+                            const mapHeight = height - 80; // Reserve 80px for legend
+
+                            // Create projection that fits the state in the available space
+                            const districtProjection = d3.geoMercator()
+                                .fitSize([width, mapHeight], districtFeatureCollection);
+
+                            const districtPath = d3.geoPath().projection(districtProjection);
+
+                            // Draw districts
+                            districtSvg.selectAll("path")
+                                .data(filteredDistricts)
+                                .enter()
+                                .append("path")
+                                .attr("d", districtPath)
+                                .attr("fill", d => stateColorScale(d.properties["PSI"]))
+                                .attr("stroke", "#000")
+                                .attr("stroke-width", 0.5)
+                                .on("mouseover", (event, d) => {
+                                    tooltip.style("display", "block")
+                                        .html(getTooltipContent2(d));
+                                })
+                                .on("mousemove", (event) => {
+                                    tooltip.style("left", (event.pageX + 10) + "px")
+                                        .style("top", (event.pageY - 10) + "px");
+                                })
+                                .on("mouseout", () => {
+                                    tooltip.style("display", "none");
+                                })
+                                .on("click", (event, d) => {
+                                    createComparisonChart(d, stateAverages, nationalAverages);
+                                });
+
+                            // Add legend below the map
+                            const legendWidth = 300;
+                            const legendHeight = 20;
+                            const legendX = (width - legendWidth) / 2;
+                            const legendY = mapHeight + 30; // 30px padding from map
+
+                            createQuantileLegend(districtSvg, stateColorScale, psiQuartiles, legendX, legendY, legendWidth, legendHeight, "PSI Score");
+
+                            // Create the scatter plot with the same color scale
+                            createScatterPlot(filteredDistricts, stateColorScale);
+                        } else {
+                            console.log("No districts found for the selected state");
+                        }
+                    }
+                }
+
+                // ... (previous code remains the same until createQuantileLegend function)
+                function createQuantileLegend(svg, colorScale, quartiles, x, y, width, height, title) {
+                    const legendGroup = svg.append("g")
+                        .attr("class", "legend")
+                        .attr("transform", `translate(${x},${y})`);
+
+                    // Create gradient definition
+                    const gradientId = "legend-gradient-" + Math.random().toString(36).substr(2, 9);
+                    const gradient = legendGroup.append("defs")
+                        .append("linearGradient")
+                        .attr("id", gradientId)
+                        .attr("x1", "0%")
+                        .attr("x2", "100%")
+                        .attr("y1", "0%")
+                        .attr("y2", "0%");
+
+                    // Add color stops
+                    colorScale.range().forEach((color, i) => {
+                        gradient.append("stop")
+                            .attr("offset", `${(i * 100) / (colorScale.range().length - 1)}%`)
+                            .attr("stop-color", color);
+                    });
+
+                    // Draw the colored rectangle
+                    legendGroup.append("rect")
+                        .attr("width", width)
+                        .attr("height", height)
+                        .style("fill", `url(#${gradientId})`);
+
+                    // Add title
+                    legendGroup.append("text")
+                        .attr("x", 0)
+                        .attr("y", -5)
+                        .style("font-size", "12px")
+                        .style("font-weight", "bold")
+                        .text(title);
+
+                    // Create evenly spaced ticks and labels
+                    const numTicks = 5;
+                    const tickPositions = d3.range(numTicks).map(i => (i * width) / (numTicks - 1));
+                    const values = [
+                        d3.min(colorScale.domain()),
+                        ...quartiles,
+                        d3.max(colorScale.domain())
+                    ];
+
+                    // Add ticks and labels
+                    tickPositions.forEach((position, i) => {
+                        legendGroup.append("line")
+                            .attr("x1", position)
+                            .attr("x2", position)
+                            .attr("y1", height)
+                            .attr("y2", height + 5)
+                            .style("stroke", "black")
+                            .style("stroke-width", 1);
+
+                        legendGroup.append("text")
+                            .attr("x", position)
+                            .attr("y", height + 20)
+                            .style("font-size", "11px")
+                            .style("font-weight", "bold")
+                            .style("text-anchor", "middle")
+                            .text(values[i].toFixed(1));
+                    });
+                }
+
+            function createScatterPlot(filteredDistricts, colorScale) {
+                const scatterMargin = { top: 20, right: 30, bottom: 50, left: 60 };
+                const scatterWidth = 800 - scatterMargin.left - scatterMargin.right;
+                const scatterHeight = 400 - scatterMargin.top - scatterMargin.bottom;
+
+                // Create or select scatter SVG
+                const scatterSvg = d3.select("#scatter-plot")
+                    .attr("width", scatterWidth + scatterMargin.left + scatterMargin.right)
+                    .attr("height", scatterHeight + scatterMargin.top + scatterMargin.bottom);
+
+                scatterSvg.selectAll("*").remove(); // Clear existing content
+
+                const scatterGroup = scatterSvg.append("g")
+                    .attr("transform", `translate(${scatterMargin.left},${scatterMargin.top})`);
+
+                // Filter valid data
+                const validData = filteredDistricts.filter(d => {
+                    return d.properties &&
+                        typeof d.properties["Revenue per Student"] === 'number' &&
+                        typeof d.properties["Share of school-age population (ages 5-17) in poverty"] === 'number';
+                });
+
+                if (validData.length === 0) {
+                    console.error("No valid data for scatter plot");
+                    return;
+                }
+
+                // Set up scales
+                const xScale = d3.scaleLinear()
+                    .domain(d3.extent(validData, d => d.properties["Revenue per Student"]))
+                    .range([0, scatterWidth])
+                    .nice();
+
+                const yScale = d3.scaleLinear()
+                    .domain([0, 1])
+                    .range([scatterHeight, 0])
+                    .nice();
+
+                // Add X axis
+                const xAxis = scatterGroup.append("g")
+                    .attr("transform", `translate(0,${scatterHeight})`)
+                    .call(d3.axisBottom(xScale)
+                        .tickFormat(d => `$${d3.format(",")(d)}`));
+
+                // X axis label
+                xAxis.append("text")
+                    .attr("x", scatterWidth / 2)
+                    .attr("y", 40)
+                    .attr("fill", "black")
+                    .style("text-anchor", "middle")
+                    .text("Revenue per Student ($)");
+
+                // Add Y axis
+                const yAxis = scatterGroup.append("g")
+                    .call(d3.axisLeft(yScale)
+                        .tickFormat(d => `${d * 100}%`));
+
+                // Y axis label
+                yAxis.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", -45)
+                    .attr("x", -scatterHeight / 2)
+                    .attr("fill", "black")
+                    .style("text-anchor", "middle")
+                    .text("Share of School-age Population in Poverty");
+
+                // Add dots
+                scatterGroup.selectAll(".dot")
+                    .data(validData)
+                    .enter()
+                    .append("circle")
+                    .attr("class", "dot")
+                    .attr("cx", d => xScale(d.properties["Revenue per Student"]))
+                    .attr("cy", d => yScale(d.properties["Share of school-age population (ages 5-17) in poverty"]))
+                    .attr("r", 5)
+                    .style("fill", d => colorScale(d.properties["PSI"]))
+                    .style("opacity", 0.7)
+                    .style("stroke", "#000")
+                    .style("stroke-width", 0.5)
+                    .style("cursor", "pointer")
+                    .on("mouseover", function(event, d) {
+                        d3.select(this)
+                            .transition()
+                            .duration(200)
+                            .attr("r", 8)
+                            .style("opacity", 1);
+
+                        tooltip
+                            .style("display", "block")
+                            .html(getTooltipContent2(d))
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 10) + "px");
+                    })
+                    .on("mousemove", function(event) {
+                        tooltip
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 10) + "px");
+                    })
+                    .on("mouseout", function() {
+                        d3.select(this)
+                            .transition()
+                            .duration(200)
+                            .attr("r", 5)
+                            .style("opacity", 0.7);
+
+                        tooltip.style("display", "none");
+                    })
+                    .on("click", function(event, d) {
+                        createComparisonChart(d, stateAverages, nationalAverages);
+                    });
+            }
+
+            // Ensure this function exists and matches the one used in your district map
+            function getTooltipContent2(d) {
+                const properties = d.properties;
+
+                return `
+                    <strong>${properties['District Name']}</strong><br/>
+                    Revenue per Student: $${d3.format(",")(d.properties["Revenue per Student"])}<br/>
+                    Poverty Share: ${(d.properties["Share of school-age population (ages 5-17) in poverty"] * 100).toFixed(1)}%<br/>
+                    PSI: ${d.properties["PSI"].toFixed(2)}
+                `;
+            }
+
+        function getTooltipContent(d) {
+            const properties = d.properties;
+            const formatNumber = d3.format(",");
+            const formatPercent = d3.format(".1%");
+            
+            return `
+                <strong>${properties.name}</strong><br>
+                Revenue per Student: $${formatNumber(properties["Revenue per Student"])}<br>
+                PSI Score: ${properties.PSI?.toFixed(2)}<br>
+                Poverty Rate: ${formatPercent(properties["Poverty Share"])}<br>
+            `;
+        }
+    </script>
+</body>
+</html>
