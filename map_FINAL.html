@@ -35,12 +35,6 @@
             pointer-events: none;
             font-size: 12px;
         }
-        #debug-info {
-            margin: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            width: 80%;
-        }
         .legend {
             font-size: 12px;
         }
@@ -57,9 +51,176 @@
             margin-right: auto;
         }
 
+        /* Header Styling test */
+        /* Header Styling test */
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 1.1em;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+
+        /* Project Overview Section */
+        .project-overview {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            text-align: left;
+        }
+
+        .project-overview h2 {
+            color: #667eea;
+            margin-top: 0;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project-overview h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .project-overview p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        /* Insights Panel */
+        .insights-panel {
+            margin-top: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .insights-grid {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        .insight-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            transition: transform 0.2s, box-shadow 0.2s;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .insight-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+        }
+
+        .insight-item h4 {
+            color: #667eea;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .insight-item p {
+            margin: 0;
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        /* Navigation Hint */
+        .navigation-hint {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px 20px;
+            max-width: 960px;
+            width: 90%;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .navigation-hint strong {
+            color: #856404;
+            font-size: 1.1em;
+        }
+
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>School Funding & Poverty Analysis Dashboard</h1>
+        <p>Exploring the relationship between educational funding, poverty rates, and resource allocation across U.S. school districts</p>
+    </div>
+
+    <!-- Project Overview -->
+    <div class="project-overview">
+        <h2>Project Overview</h2>
+        <p>This interactive visualization examines the complex relationship between school funding, poverty rates, and educational equity across the United States. Using comprehensive data from the Urban Institute and U.S. Census Bureau, the dashboard analyzes how financial resources are distributed among school districts and their correlation with student poverty levels.</p>
+
+        <p>The analysis introduces the <strong>Poverty Sensitivity Index (PSI)</strong> - a novel metric that measures how well school funding responds to student poverty levels. PSI is calculated as: <strong>Revenue per Student ÷ Poverty Rate</strong>. This means a district with $20,000 per student and a 5% poverty rate (0.05) would have a PSI of 400,000.</p>
+
+        <p><strong>How to interpret PSI:</strong> Higher PSI values indicate districts that receive more funding per student relative to their poverty rates, suggesting better resource allocation for high-need populations. The PSI represents the amount of funding (in dollars) allocated per student for each percentage point of poverty. For example, a PSI of 400,000 means the district allocates $400,000 per student per 1% poverty rate, while a PSI of 200,000 would indicate half that funding intensity relative to poverty levels.</p>
+
+        <div class="insights-panel">
+            <h3>Key Insights & Methodology</h3>
+            <div class="insights-grid">
+                <div class="insight-item">
+                    <h4>Poverty Sensitivity Index (PSI)</h4>
+                    <p>PSI = (Revenue per Student) / (Poverty Rate). This metric represents dollars allocated per student for each percentage point of poverty. Higher values indicate better poverty-adjusted funding, helping identify districts that effectively allocate resources to high-need populations.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Geographic Patterns</h4>
+                    <p>The analysis reveals significant regional variations in funding equity, with some states showing consistently higher PSI values across districts, suggesting more equitable state-level funding formulas.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Data Integration</h4>
+                    <p>This project combines financial data from the Urban Institute's Education Finance Database with demographic data from the U.S. Census Bureau, providing a comprehensive view of educational equity.</p>
+                </div>
+                <div class="insight-item">
+                    <h4>Policy Implications</h4>
+                    <p>The findings highlight districts and states that may benefit from funding formula adjustments to better serve high-poverty student populations and improve educational equity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Hint -->
+    <div class="navigation-hint">
+        <strong>How to Use:</strong> Click on any state in the map below to explore district-level data. Use the scatter plot and comparison charts to analyze funding patterns and equity metrics.
+    </div>
     <h2>State View</h2>
     <svg id="state-map"></svg>
     <h2>District View: <span id="selected-state">No state selected</span></h2>
@@ -69,20 +230,13 @@
     <h2>District Scatter Plot</h2>
     <svg id="scatter-plot" width="800" height="400"></svg>
     <div class="tooltip" style="display: none;"></div>
-    <div id="debug-info"></div>
+    
+
 
     <script>
         const width = 960, height = 600;
-        const debugInfo = document.getElementById('debug-info');
         let nationalAverages = null;
         let stateAverages = null;
-
-        function logDebug(message, data = null) {
-            console.log(message, data);
-            debugInfo.innerHTML = `<p>${message}</p>` +
-                (data ? `<pre>${JSON.stringify(data, null, 2)}</pre>` : '') +
-                debugInfo.innerHTML;
-        }
 
         const stateSvg = d3.select("#state-map").attr("width", width).attr("height", height);
         const districtSvg = d3.select("#district-map").attr("width", width).attr("height", height);
@@ -220,9 +374,9 @@
 
 
         // Load and render states
-        d3.json("state_FINAL.geojson")
+        d3.json("https://psi-school.s3.us-east-1.amazonaws.com/state_FINAL.geojson")
             .then(states => {
-                logDebug("States data loaded", {
+                console.log("States data loaded", {
                     totalStates: states.features.length,
                     sampleStateProperties: states.features[0].properties
                 });
@@ -259,11 +413,11 @@
                 createLegend(stateSvg, colorScale, 10, 20, 180, 20, "PSI");
             })
             .catch(error => {
-                logDebug("Error loading states data:", error);
+                console.log("Error loading states data:", error);
             });
 
             let districtsData;
-                d3.json("districts.geojson")
+                d3.json("https://psi-school.s3.us-east-1.amazonaws.com/districts.geojson")
                 .then(data => {
                     districtsData = data;
                     // Calculate national averages for districts
@@ -272,14 +426,14 @@
                         'PSI',
                         'Share of school-age population (ages 5-17) in poverty'
                     ]);
-                    logDebug("Districts data loaded", { totalDistricts: districtsData.features.length });
+                    console.log("Districts data loaded", { totalDistricts: districtsData.features.length });
                 })
                 .catch(error => {
-                    logDebug("Error loading districts data:", error);
+                    console.log("Error loading districts data:", error);
                 });
 
                 function loadDistricts(stateName) {
-                    logDebug("Loading districts for state:", stateName);
+                    console.log("Loading districts for state:", stateName);
 
                     districtSvg.selectAll("*").remove();
                     scatterSvg.selectAll("*").remove();
@@ -297,7 +451,7 @@
                             'Share of school-age population (ages 5-17) in poverty'
                         ]);
 
-                        logDebug("Filtered districts", {
+                        console.log("Filtered districts", {
                             stateName: stateName,
                             matchingDistricts: filteredDistricts.length
                         });
@@ -369,7 +523,7 @@
                             // Create the scatter plot with the same color scale
                             createScatterPlot(filteredDistricts, stateColorScale);
                         } else {
-                            logDebug("No districts found for the selected state");
+                            console.log("No districts found for the selected state");
                         }
                     }
                 }
