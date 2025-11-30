@@ -404,6 +404,10 @@
                         tooltip.style("display", "none");
                     })
                     .on("click", (event, d) => {
+                        if (!districtsData) {
+                            alert("District data is still loading. Please wait a moment and try again.");
+                            return;
+                        }
                         const stateName = d.properties.name;
                         loadDistricts(stateName);
                         d3.select("#selected-state").text(stateName);
@@ -434,6 +438,13 @@
 
                 function loadDistricts(stateName) {
                     console.log("Loading districts for state:", stateName);
+
+                    // Check if districts data is loaded
+                    if (!districtsData) {
+                        console.log("Districts data not yet loaded. Please wait...");
+                        d3.select("#selected-state").text("Loading districts data...");
+                        return;
+                    }
 
                     districtSvg.selectAll("*").remove();
                     scatterSvg.selectAll("*").remove();
