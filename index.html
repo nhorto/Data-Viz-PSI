@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Funding and Poverty Map</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
     <style>
         body {
             margin: 10px;
@@ -421,11 +422,12 @@
             });
 
             let districtsData;
-                d3.json("https://psi-school.s3.us-east-1.amazonaws.com/districts.geojson")
-                .then(data => {
-                    districtsData = data;
+                d3.json("https://psi-school.s3.us-east-1.amazonaws.com/districts.topo.js")
+                .then(topoData => {
+                    const geojson = topojson.feature(topoData, topoData.objects.districts);
+                    districtsData = geojson;
                     // Calculate national averages for districts
-                    nationalAverages = calculateAverages(data.features, [
+                    nationalAverages = calculateAverages(geojson.features, [
                         'Revenue per Student',
                         'PSI',
                         'Share of school-age population (ages 5-17) in poverty'
